@@ -92,225 +92,62 @@
 
     <div class="site-section">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-4 mb-lg-0">
-            <figure class="img-play-vid">
-              <img src="images/hero_1.jpg" alt="Image" class="img-fluid">
-              <div class="absolute-block d-flex">
-                <span class="text">Watch the Video</span>
-                <a href="https://www.youtube.com/watch?v=9pVy8sRC440" data-fancybox class="btn-play">
-                  <span class="icon-play"></span>
-                </a>
-              </div>
-            </figure>
-          </div>
-          <div class="col-lg-5 ml-auto">
+      <!-- <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">-->
+            
             <h2 class="mb-4 section-heading">Curiosidades</h2>
             <p>Os grandes problemas ambientais a nível mundial que devem ser resolvidos até 2030</p>
             <ul class="list-check list-unstyled mb-5">
               
-              <li>Adaptação e mitigação às mudanças climáticas</li>
-              <li>Os problemas de poluição e seu impacto de saúde</li>
-              <li> A transição energética e as energias renováveis</li>
-              <li>O desenvolvimento urbano e mobilidade sustentável</li>
+              <li>Mobilidade:</li>
+                 <p>as viagens serão feitas em carros elétricos compartilhados e equipados com algoritmos que otimizarão a rota para reduzir consumo </p>
+
+              <li>Alimentação:</li> 
+              <p>cometemos mais verduras, frutas e hortaliças. A carne, os produtos lácteos e os peixes perderão espaço na dieta. </p>
+              
+              <li>Consumo:</li>
+              <p>os plásticos de um só uso terão desaparecido e vai prevalecer a compra a granel de produtos sustentáveis.</p>
+              
+              <li>Urbanismo:</li>
+              <p> moraremos em casas alimentadas com energia renováveis e hortas urbanas povoarão os terraços e as ruas </p>
+              
+              <li>Agricultura:</li>
+              <p>a diminuição da pecuária beneficiada o reflorestamento e deixará mais solo disponível para o cultivo de alimento</p>
               
             </ul>
             <p><a href="https://www.iberdrola.com/meio-ambiente/principais-problemas-ambientais" class="btn btn-primary">Learn more</a></p>
           </div>
         </div>
       </div>
+
+
+
+
+      
+      <div class="site-section">
+        <div class="container">
+	  <!--<div class="col-lg-5 ml-auto">-->
+            <h2 class="mb-4 section-heading">Busca de noticias por CEP</h2>
+            
+            <p>Para mais informções e noticias, digite seu CEP</p>
+				<form method="get" action=".">
+					<label> Cep: <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+               onblur="pesquisacep(this.value);" /></label><br />
+					<label>Rua: <input name="rua" type="text" id="rua" size="40" /></label><br />
+					<label>Bairro: <input name="bairro" type="text" id="bairro" size="30" /></label><br />
+					<label>Cidade: <input name="cidade" type="text" id="cidade" size="30" /></label><br />
+					<label>Estado: <input name="uf" type="text" id="uf" size="2" /></label><br />
+					<label>IBGE: <input name="ibge" type="text" id="ibge" size="8" /></label><br />
+				</form>
+            <p><a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias.html?editoria=geociencias" class="btn btn-primary">Buscar</a></p>
+          </div>
     </div>
 
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-3">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading">Team</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptate!</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="team">
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-              <h3>Jane Smith</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut commodi accusantium eveniet nemo maiores deleniti rerum animi, deserunt veniam error.</p>
-              <p>
-                <span class="d-block mb-2"><strong>Connect on social</strong></span>
-                <a href="#" class="p-2 icon-facebook"></a>
-                <a href="#" class="p-2 icon-twitter"></a>
-                <a href="#" class="p-2 icon-linkedin"></a>
-                <a href="#" class="p-2 icon-instagram"></a>
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="team">
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid">
-              <h3>Cynthia Anderson</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut commodi accusantium eveniet nemo maiores deleniti rerum animi, deserunt veniam error.</p>
-              <p>
-                <span class="d-block mb-2"><strong>Connect on social</strong></span>
-                <a href="#" class="p-2 icon-facebook"></a>
-                <a href="#" class="p-2 icon-twitter"></a>
-                <a href="#" class="p-2 icon-linkedin"></a>
-                <a href="#" class="p-2 icon-instagram"></a>
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="team">
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid">
-              <h3>Gregg Wallace</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut commodi accusantium eveniet nemo maiores deleniti rerum animi, deserunt veniam error.</p>
-              <p>
-                <span class="d-block mb-2"><strong>Connect on social</strong></span>
-                <a href="#" class="p-2 icon-facebook"></a>
-                <a href="#" class="p-2 icon-twitter"></a>
-                <a href="#" class="p-2 icon-linkedin"></a>
-                <a href="#" class="p-2 icon-instagram"></a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+       
 
 
-    <div class="site-section stats">
-      <div class="container">
-        <div class="row mb-3">
-          <div class="col-lg-7 text-center mx-auto">
-            <h2 class="section-heading">Coronavirus Statistics</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, voluptate!</p>
-          </div>
-        </div>
-        <div class="row"> 
-          <div class="col-lg-4">
-            <div class="data">
-              <span class="icon text-primary">
-                <span class="flaticon-virus"></span>
-              </span>
-              <strong class="d-block number">14,112,077</strong>
-              <span class="label">Active Cases</span>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="data">
-              <span class="icon text-primary">
-                <span class="flaticon-virus"></span>
-              </span>
-              <strong class="d-block number">595,685</strong>
-              <span class="label">Deaths</span>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="data">
-              <span class="icon text-primary">
-                <span class="flaticon-virus"></span>
-              </span>
-              <strong class="d-block number">8,397,665</strong>
-              <span class="label">Recovered Cases</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 mx-auto text-center">
-            <span class="subheading">What you need to do</span>
-            <h2 class="mb-4 section-heading">How To Protect Yourself</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex officia quas, modi sit eligendi numquam!</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 ">
-            <div class="row mt-5 pt-5">
-              <div class="col-lg-6 do ">
-                <h3>You should do</h3>
-                <ul class="list-unstyled check">
-                  <li>Stay at home</li>
-                  <li>Wear mask</li>
-                  <li>Use Sanitizer</li>
-                  <li>Disinfect your home</li>
-                  <li>Wash your hands</li>
-                  <li>Frequent self-isolation</li>
-                </ul>
-              </div>
-              <div class="col-lg-6 dont ">
-                <h3>You should avoid</h3>
-                <ul class="list-unstyled cross">
-                  <li>Avoid infected people</li>
-                  <li>Avoid animals</li>
-                  <li>Avoid handshaking</li>
-                  <li>Aviod infected surfaces</li>
-                  <li>Don't touch your face</li>
-                  <li>Avoid droplets</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <img src="images/protect.png" alt="Image" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-    <div class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <h2 class="footer-heading mb-4">About</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cumque tenetur inventore veniam, hic vel ipsa necessitatibus ducimus architecto fugiat!</p>
-            <div class="my-5">
-              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-            </div>
-          </div>
-          <div class="col-lg-8">
-            <div class="row">
-              <div class="col-lg-4">
-                <h2 class="footer-heading mb-4">Quick Links</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">Symptoms</a></li>
-                  <li><a href="#">Prevention</a></li>
-                  <li><a href="#">FAQs</a></li>
-                  <li><a href="#">About Coronavirus</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-4">
-                <h2 class="footer-heading mb-4">Helpful Link</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">Helathcare Professional</a></li>
-                  <li><a href="#">LGU Facilities</a></li>
-                  <li><a href="#">Protect Your Family</a></li>
-                  <li><a href="#">World Health</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-4">
-                <h2 class="footer-heading mb-4">Resources</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">WHO Website</a></li>
-                  <li><a href="#">CDC Website</a></li>
-                  <li><a href="#">Gov Website</a></li>
-                  <li><a href="#">DOH Website</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+   
+        
         <div class="row text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
@@ -343,6 +180,77 @@
 
 
   <script src="js/main.js"></script>
+  <script>
+	function limpa_formulario_cep(){
+		// limpa o formulário
+			document.getElementById('rua').value=("");
+            document.getElementById('bairro').value=("");
+            document.getElementById('cidade').value=("");
+            document.getElementById('uf').value=("");
+            document.getElementById('ibge').value=("");
+    }
+
+    function meu_callback(conteudo) {
+        if (!("erro" in conteudo)) {
+            //Atualiza os campos com os valores.
+            document.getElementById('rua').value=(conteudo.logradouro);
+            document.getElementById('bairro').value=(conteudo.bairro);
+            document.getElementById('cidade').value=(conteudo.localidade);
+            document.getElementById('uf').value=(conteudo.uf);
+            document.getElementById('ibge').value=(conteudo.ibge);
+        } //end if.
+        else {
+            //CEP não Encontrado.
+            limpa_formulário_cep();
+            alert("CEP não encontrado.");
+        }
+    }
+        
+    function pesquisacep(valor) {
+
+        //Nova variável "cep" somente com dígitos.
+        var cep = valor.replace(/\D/g, '');
+
+        //Verifica se campo cep possui valor informado.
+        if (cep != "") {
+
+            //Expressão regular para validar o CEP.
+            var validacep = /^[0-9]{8}$/;
+
+            //Valida o formato do CEP.
+            if(validacep.test(cep)) {
+
+                //Preenche os campos com "..." enquanto consulta webservice.
+                document.getElementById('rua').value="...";
+                document.getElementById('bairro').value="...";
+                document.getElementById('cidade').value="...";
+                document.getElementById('uf').value="...";
+                document.getElementById('ibge').value="...";
+
+                //Cria um elemento javascript.
+                var script = document.createElement('script');
+
+                //Sincroniza com o callback.
+                script.src = 'https://viacep.com.br/ws/'+ cep + '/json/?callback=meu_callback';
+
+                //Insere script no documento e carrega o conteúdo.
+                document.body.appendChild(script);
+
+            } //end if.
+            else {
+                //cep é inválido.
+                limpa_formulário_cep();
+                alert("Formato de CEP inválido.");
+            }
+        } //end if.
+        else {
+            //cep sem valor, limpa formulário.
+            limpa_formulário_cep();
+        }
+    };
+
+    </script>
+		}
 
 
 </body>

@@ -92,7 +92,7 @@ body:after {
     color: #fff; }
     .btn.btn-outline-white:hover {
       background: #fff;
-      color: #D98F89; }
+      color: #5DEB37; }
 
 .line-height-1 {
   line-height: 1 !important; }
@@ -917,7 +917,7 @@ body:after {
     height: 140px;
     width: 100%;
     background: #d98f89;
-    color: #d98f89;
+    color: white;
     text-align: center;
     position: relative; }
     .media-v1 .icon-wrap span {
